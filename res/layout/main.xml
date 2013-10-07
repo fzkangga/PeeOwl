@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#333333">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pineapple Owl"
+            android:clickable="true" android:textSize="30dp" android:textColor="#ff7d73"
+            android:layout_gravity="center" android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" android:textColor="#ff7d73"
+            android:text="Mods"
+            android:layout_gravity="center"
+            android:singleLine="false"/>
+    <ImageView
+            android:layout_width="117dp"
+            android:layout_height="126dp"
+            android:id="@+id/imageView" android:layout_gravity="center" android:src="@drawable/pineappleowl"
+            android:scaleType="fitCenter"/>
+</LinearLayout>
+
